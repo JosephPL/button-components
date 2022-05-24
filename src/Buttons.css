@@ -1,0 +1,152 @@
+:root {
+    --btn: #E0E0E0;
+    --btn-text: #3F3F3F;
+    --btn-hover: #AEAEAE;
+    --btn-bg-text: #E0E0E03A;
+
+    --primary: #2962FF;
+    --primary-hover: #0039CB;
+    --primary-bg-text: #2962FF1A;
+
+    --secondary: #455A64;
+    --secondary-hover: #1C313A;
+    --secondary-bg-text: #455A641A;
+
+    --danger: #D32F2F;
+    --danger-hover: #9A0007;
+    --danger-bg-text: #D32F2F1A;
+
+  }
+
+button {
+    padding: 10px 16px;
+    font-size: 0.875rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+    /* box-shadow: 1px 2px #4747471a; */
+    cursor: pointer;
+    background-color: var(--btn);
+    color: var(--btn-text);
+}
+button:hover , button:focus{
+    background-color: var(--btn-hover);
+}
+
+/* .disable {
+    
+} */
+.primary {
+    background-color: var(--primary);
+    color: #FFF;
+}
+.primary:hover , .primary:focus {
+    background-color: var(--primary-hover);
+}
+
+.secondary {
+    background-color: var(--secondary);
+    color: #FFF;
+}
+.secondary:hover , .secondary:focus {
+    background-color: var(--secondary-hover);
+}
+
+.danger {
+    background-color: var(--danger);
+    color: #FFF;
+}
+
+.danger:hover , .danger:focus {
+    background-color: var(--danger-hover);
+}
+
+/*==============      OUTLINE         ================*/
+
+.outline-default {
+    border: solid 1px var(--btn-text);
+    color: var(--btn-text);
+    background-color: #FFF;
+}
+.outline-default:hover , .outline-default:focus {
+    background-color: var(--btn-bg-text);
+}
+
+.outline-primary {
+    border: solid 1px var(--primary);
+    color: var(--primary);
+    background-color: #FFF;
+}
+.outline-primary:hover , .outline-primary:focus {
+    background-color: var(--primary-bg-text);
+}
+
+.outline-secondary {
+    border: solid 1px var(--secondary);
+    color: var(--secondary);
+    background-color: #FFF;
+}
+.outline-secondary:hover , .outline-secondary:focus {
+    background-color: var(--secondary-bg-text);
+}
+
+.outline-danger {
+    border: solid 1px var(--danger);
+    color: var(--danger);
+    background-color: #FFF;
+}
+.outline-danger:hover , .outline-danger:focus {
+    background-color: var(--danger-bg-text);
+}
+
+
+/*==============      TEXT         ================*/
+
+.text-default {
+    background-color: transparent;
+    box-shadow: none;
+    color: var(--btn-text);
+}
+.text-default:hover , .text-default:focus {
+    background-color: var(--btn-bg-text);
+}
+
+.text-primary {
+    background-color: transparent;
+    box-shadow: none;
+    color: var(--primary);
+}
+.text-primary :hover , .text-primary :focus {
+    background-color: var(--primary-bg-text);
+}
+
+.text-secondary {
+    background-color: transparent;
+    box-shadow: none;
+    color: var(--secondary);
+}
+.text-secondary:hover , .text-secondary:focus {
+    background-color: var(--secondary-bg-text);
+}
+
+.text-danger {
+    background-color: transparent;
+    box-shadow: none;
+    color: var(--danger);
+}
+.text-danger:hover , .text-danger:focus {
+    background-color: var(--danger-bg-text);
+}
+
+/*==============      SIZE         ================*/
+.sm {
+    padding: 6px 12px;
+}
+.md {
+    padding: 10px 16px;
+}
+.lg {
+    padding: 14px 24px;
+}
+
+/*==============      TEXT         ================*/

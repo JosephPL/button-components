@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600&display=swap');
+@import url('Buttons.css');
+*{
+    font-family: 'Noto Sans';
+    
+}
+body {
+    width: 95%;
+    margin: auto;
+    font-size: 16px;
+}
+h1{
+    color: #4F4F4F;
+}
+p{
+    color: #333333;
+    font-size: 0.75rem;
+}
+.row , .btnContainer{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.container {
+    width: 600px;
+    background-color: #fff;
+    padding-left: 50px;
+}
+
+.col1 {
+    width: 150px;   
+}
+.col2 {
+    width: 200px;
+}
+.col3 {
+    width: 300px;
+}
+
+.css-b62m3t-container{
+    margin-top: 10px;
+    width: 50%;
+}
