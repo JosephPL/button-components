@@ -1,4 +1,4 @@
-const buttons = ({variant, startIcon, endIcon, textCode, color, size}) => {
+const buttons = ({variant, startIcon, endIcon, textCode, color, size, disable}) => {
   let bottonType = '';
   if(variant !== undefined){
     bottonType+= variant;
@@ -16,6 +16,9 @@ const buttons = ({variant, startIcon, endIcon, textCode, color, size}) => {
     bottonType+= ' md'
   }
 
+  if(disable === 'true'){
+    bottonType+= ' ' + disable;
+  }
   
   const start = <i className={startIcon}></i>
   

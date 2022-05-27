@@ -74,11 +74,11 @@ function App() {
             
             <div className='btnContainer'>
               <div className='col3'>
-              <Buttons variant='outline' color={selectedOption} size='lg' startIcon='fa-solid fa-cart-plus' textCode='<Button variant="outline" size="lg "startIcon=”Icon_Name” />' />
+              <Buttons variant='outline' color={selectedOption} size='lg' disable='true' startIcon='fa-solid fa-cart-plus' textCode='<Button variant="outline" size="lg" disable startIcon=”Icon_Name” />' />
               </div>
 
               <div className='col3'>
-              <Buttons variant='text' color={selectedOption} size='sm' startIcon='fa-solid fa-cart-plus' textCode='<Button variant="text" size="sm "startIcon=”Icon_Name” />' />
+              <Buttons variant='text' color={selectedOption} size='sm' disable='true' startIcon='fa-solid fa-cart-plus' textCode='<Button variant="text" size="sm" disable startIcon=”Icon_Name” />' />
               </div>
 
             </div>
