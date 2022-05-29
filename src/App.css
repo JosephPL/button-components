@@ -42,3 +42,10 @@ p{
     margin-top: 10px;
     width: 50%;
 }
+.textCenter {
+    text-align: center;
+    font-size: 0.875rem;
+}
+span {
+    font-weight: 700;
+}

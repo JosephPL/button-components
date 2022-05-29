@@ -85,11 +85,11 @@ function App() {
           </div>
 
         </section>
-
-
-
       </main>
 
+      <footer>
+        <p className='textCenter'>created by <span>JosephPL</span> - devChallenges.io</p>
+      </footer>
  
     </>
    
